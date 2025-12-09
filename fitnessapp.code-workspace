@@ -1,0 +1,70 @@
+{
+	// FitnessApp workspace configuration
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	// Editor and tooling settings for this workspace
+	"settings": {
+		// Core editor indentation and whitespace behavior
+		"editor.detectIndentation": false,
+		"editor.formatOnSave": false,
+		"editor.insertSpaces": false,
+		"editor.renderWhitespace": "trailing",
+
+		// ESLint integration
+		"eslint.enable": true,
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"typescriptreact"
+		],
+		"eslint.workingDirectories": [
+			{
+				"mode": "auto"
+			}
+		],
+
+		// File system hygiene
+		"files.exclude": {
+			"**/.expo": true,
+			"**/.git": true,
+			"**/node_modules": true,
+			"**/%ProgramData%": true
+		},
+
+		// Force LF (Unix) line endings
+		"files.eol": "\n",
+
+		// Files whitespace cleanup
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": true,
+
+		// Search performance and noise reduction
+		"search.exclude": {
+			"**/.expo": true,
+			"**/node_modules": true,
+			"**/%ProgramData%": true
+		},
+		// UI and editor color customizations
+		"workbench.colorCustomizations": {
+			"editorIndentGuide.activeBackground1": "#ffff40",
+			"editorIndentGuide.activeBackground2": "#7fff7f",
+			"editorIndentGuide.activeBackground3": "#ff7fff",
+			"editorIndentGuide.activeBackground4": "#4fecec",
+			"editorIndentGuide.activeBackground5": "#ffc0cb",
+			"editorIndentGuide.activeBackground6": "#add8e6",
+			"editorIndentGuide.background1": "#FFFF4080",
+			"editorIndentGuide.background2": "#7FFF7F80",
+			"editorIndentGuide.background3": "#FF7FFF80",
+			"editorIndentGuide.background4": "#4FECEC80",
+			"editorIndentGuide.background5": "#FFC0CB80",
+			"editorIndentGuide.background6": "#ADD8E680",
+			"minimap.background": "#00000000",
+			"scrollbar.shadow": "#00000000"
+		}
+	}
+}

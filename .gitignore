@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.bun/
+
+# Expo / Metro caches
+.expo/
+.expo-shared/
+.expo-dev/
+.expo/web/cache/
+.metro-cache/
+packager-info.json
+*.packager-info
+
+# Build outputs
+dist/
+build/
+web-build/
+
+# Generated native projects (expo prebuild)
+android/
+ios/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+# Windows oddities
+%ProgramData%/
+
+# Tests / coverage
+coverage/

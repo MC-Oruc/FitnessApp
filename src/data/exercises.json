@@ -1,0 +1,839 @@
+[
+	{
+	  "id": 1,
+	  "name": "Barbell Bench Press",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "High Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 2,
+	  "name": "Incline Barbell Bench Press",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Upper Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "High Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 3,
+	  "name": "Decline Barbell Bench Press",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 4,
+	  "name": "Dumbbell Bench Press",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "High Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 5,
+	  "name": "Incline Dumbbell Press",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Upper Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 6,
+	  "name": "Machine Chest Press",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 7,
+	  "name": "Smith Machine Incline Press",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Upper Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 8,
+	  "name": "Weighted Dips",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Maximum Activation" },
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 9,
+	  "name": "Dumbbell Fly",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 10,
+	  "name": "Cable Crossover (High to Low)",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 11,
+	  "name": "Cable Fly (Low to High)",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Upper Chest", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 12,
+	  "name": "Pec Deck / Machine Fly",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 13,
+	  "name": "Push-Ups",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "Maximum Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "High Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 14,
+	  "name": "Dumbbell Pullover",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Chest", "zone": "Upper Chest", "activation": "High Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 15,
+	  "name": "Deadlift",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Very High",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "Maximum Activation" },
+		{ "muscle": "Hamstrings", "zone": "Hip Extensors", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Upper Trap", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 16,
+	  "name": "Rack Pull",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Very High",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Trap", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 17,
+	  "name": "Pull-Ups (Wide Grip)",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "High Activation" },
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 18,
+	  "name": "Chin-Ups",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 19,
+	  "name": "Bent Over Barbell Row",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 20,
+	  "name": "Pendlay Row",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 21,
+	  "name": "T-Bar Row",
+	  "equipment": "Machine",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 22,
+	  "name": "Chest Supported Row",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 23,
+	  "name": "Lat Pulldown",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "High Activation" },
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 24,
+	  "name": "Single Arm Lat Pulldown",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Lower Lats", "activation": "Maximum Activation" },
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 25,
+	  "name": "Straight Arm Pulldown",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "High Activation" },
+		{ "muscle": "Triceps", "zone": "Long Head", "activation": "Partial Activation" }
+	  ]
+	},
+	{
+	  "id": 26,
+	  "name": "Seated Cable Row",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 27,
+	  "name": "One Arm Dumbbell Row",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Lats & Teres Major", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" },
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 28,
+	  "name": "Face Pull",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Rear Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" },
+		{ "muscle": "Shoulder", "zone": "Rear Shoulder", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 29,
+	  "name": "Hyperextension",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "High Activation" },
+		{ "muscle": "Hamstrings", "zone": "Hip Extensors", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 30,
+	  "name": "Barbell Squat (High Bar)",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Very High",
+	  "targets": [
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "Medium Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 31,
+	  "name": "Front Squat",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Very High",
+	  "targets": [
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "Medium Activation" },
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 32,
+	  "name": "Hack Squat",
+	  "equipment": "Machine",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 33,
+	  "name": "Leg Press",
+	  "equipment": "Machine",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 34,
+	  "name": "Bulgarian Split Squat",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "Maximum Activation" },
+		{ "muscle": "Hamstrings", "zone": "Hip Extensors", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 35,
+	  "name": "Goblet Squat",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "Maximum Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 36,
+	  "name": "Romanian Deadlift (RDL)",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Hamstrings", "zone": "Hip Extensors", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 37,
+	  "name": "Dumbbell RDL",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Hamstrings", "zone": "Hip Extensors", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 38,
+	  "name": "Walking Lunges",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "Maximum Activation" },
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "High Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 39,
+	  "name": "Leg Extension",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Quadriceps", "zone": "Rectus Femoris", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 40,
+	  "name": "Lying Leg Curl",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Hamstrings", "zone": "Knee Flexors", "activation": "Maximum Activation" },
+		{ "muscle": "Calves", "zone": "Gastrocnemius", "activation": "Partial Activation" }
+	  ]
+	},
+	{
+	  "id": 41,
+	  "name": "Seated Leg Curl",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Hamstrings", "zone": "Knee Flexors", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 42,
+	  "name": "Sumo Deadlift",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Very High",
+	  "targets": [
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "Maximum Activation" },
+		{ "muscle": "Hamstrings", "zone": "Hip Extensors", "activation": "High Activation" },
+		{ "muscle": "Quadriceps", "zone": "Vastus Group", "activation": "High Activation" },
+		{ "muscle": "Back", "zone": "Erector Spinae", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 43,
+	  "name": "Hip Thrust",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "Maximum Activation" },
+		{ "muscle": "Hamstrings", "zone": "Hip Extensors", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 44,
+	  "name": "Glute Ham Raise (GHR)",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Hamstrings", "zone": "Knee Flexors", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 45,
+	  "name": "Standing Calf Raise",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Calves", "zone": "Gastrocnemius", "activation": "Maximum Activation" },
+		{ "muscle": "Calves", "zone": "Soleus", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 46,
+	  "name": "Seated Calf Raise",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Calves", "zone": "Soleus", "activation": "Maximum Activation" },
+		{ "muscle": "Calves", "zone": "Gastrocnemius", "activation": "Partial Activation" }
+	  ]
+	},
+	{
+	  "id": 47,
+	  "name": "Leg Press Calf Raise",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Calves", "zone": "Gastrocnemius", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 48,
+	  "name": "Overhead Barbell Press",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Lateral Shoulder", "activation": "High Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 49,
+	  "name": "Seated Dumbbell Press",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Lateral Shoulder", "activation": "High Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 50,
+	  "name": "Arnold Press",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Lateral Shoulder", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 51,
+	  "name": "Dumbbell Lateral Raise",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Lateral Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Upper Trap", "activation": "Partial Activation" }
+	  ]
+	},
+	{
+	  "id": 52,
+	  "name": "Cable Lateral Raise",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Lateral Shoulder", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 53,
+	  "name": "Bent Over Rear Delt Fly",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Rear Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 54,
+	  "name": "Reverse Pec Deck",
+	  "equipment": "Machine",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Rear Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Middle Trap", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 55,
+	  "name": "Upright Row (Cable)",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Shoulder", "zone": "Lateral Shoulder", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Upper Trap", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 56,
+	  "name": "Barbell Shrug",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Trap", "activation": "Maximum Activation" },
+		{ "muscle": "Forearms", "zone": "Flexors", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 57,
+	  "name": "Dumbbell Shrug",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Upper Trap", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 58,
+	  "name": "Barbell Curl",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "Maximum Activation" },
+		{ "muscle": "Forearms", "zone": "Flexors", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 59,
+	  "name": "Hammer Curl",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Biceps", "zone": "Brachialis", "activation": "Maximum Activation" },
+		{ "muscle": "Biceps", "zone": "Brachioradialis", "activation": "High Activation" },
+		{ "muscle": "Forearms", "zone": "Extensors", "activation": "High Activation" },
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 60,
+	  "name": "Preacher Curl (Z Bar)",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Biceps", "zone": "Short Head", "activation": "Maximum Activation" },
+		{ "muscle": "Biceps", "zone": "Brachialis", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 61,
+	  "name": "Incline Dumbbell Curl",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 62,
+	  "name": "Cable Curl",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Biceps", "zone": "Long Head", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 63,
+	  "name": "Concentration Curl",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Biceps", "zone": "Short Head", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 64,
+	  "name": "Reverse Grip Barbell Curl",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Forearms", "zone": "Extensors", "activation": "Maximum Activation" },
+		{ "muscle": "Biceps", "zone": "Brachialis", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 65,
+	  "name": "Tricep Pushdown (Rope)",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Maximum Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 66,
+	  "name": "Tricep Pushdown (Straight Bar)",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 67,
+	  "name": "Skullcrushers",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Triceps", "zone": "Long Head", "activation": "Maximum Activation" },
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 68,
+	  "name": "Close Grip Bench Press",
+	  "equipment": "Barbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Maximum Activation" },
+		{ "muscle": "Chest", "zone": "Middle & Lower Chest", "activation": "High Activation" },
+		{ "muscle": "Shoulder", "zone": "Front Shoulder", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 69,
+	  "name": "Overhead Dumbbell Extension",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Triceps", "zone": "Long Head", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 70,
+	  "name": "Single Arm Cable Tricep Extension",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Triceps", "zone": "Lateral & Medial", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 71,
+	  "name": "Plank",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "Maximum Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 72,
+	  "name": "Hanging Leg Raise",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Abs", "zone": "Lower Abs", "activation": "Maximum Activation" },
+		{ "muscle": "Abs", "zone": "Lower Abs", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 73,
+	  "name": "Cable Crunch",
+	  "equipment": "Cable",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Abs", "zone": "Upper Abs", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 74,
+	  "name": "Russian Twist",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "Maximum Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 75,
+	  "name": "Ab Wheel Rollout",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "Moderate",
+	  "targets": [
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 76,
+	  "name": "Farmer's Walk",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "High",
+	  "targets": [
+		{ "muscle": "Forearms", "zone": "Flexors", "activation": "Maximum Activation" },
+		{ "muscle": "Back", "zone": "Upper Trap", "activation": "Maximum Activation" },
+		{ "muscle": "Abs", "zone": "Obliques", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 77,
+	  "name": "Wrist Curls",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Forearms", "zone": "Flexors", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 78,
+	  "name": "Reverse Wrist Curls",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Forearms", "zone": "Extensors", "activation": "Maximum Activation" }
+	  ]
+	},
+	{
+	  "id": 79,
+	  "name": "Prone Y Raise",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Back", "zone": "Lower Trap", "activation": "Maximum Activation" },
+		{ "muscle": "Shoulder", "zone": "Rear Shoulder", "activation": "High Activation" }
+	  ]
+	},
+	{
+	  "id": 80,
+	  "name": "Side-Lying Hip Abduction",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Glutes", "zone": "Gluteus Medius & Minimus", "activation": "Maximum Activation" },
+		{ "muscle": "Glutes", "zone": "Gluteus Maximus", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 81,
+	  "name": "Forearm Pronation / Supination",
+	  "equipment": "Dumbbell",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Forearms", "zone": "Pronator & Supinator", "activation": "Maximum Activation" },
+		{ "muscle": "Forearms", "zone": "Flexors", "activation": "Medium Activation" },
+		{ "muscle": "Forearms", "zone": "Extensors", "activation": "Medium Activation" }
+	  ]
+	},
+	{
+	  "id": 82,
+	  "name": "Tibialis Raise (Wall Lean)",
+	  "equipment": "Bodyweight",
+	  "cns_fatigue": "Low",
+	  "targets": [
+		{ "muscle": "Calves", "zone": "Tibialis Anterior", "activation": "Maximum Activation" }
+	  ]
+	}
+  ]
