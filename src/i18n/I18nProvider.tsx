@@ -1,5 +1,13 @@
-import React, { createContext, useCallback, useContext, useMemo, useState } from 'react';
+import React, {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useState,
+} from 'react';
 import { availableLanguages, translations, type Language } from './translations';
+import { persistLanguage } from '../storage/settingsStorage';
 
 type Vars = Record<string, string | number>;
 
@@ -8,6 +16,11 @@ type I18nContextValue = {
   setLanguage: (lang: Language) => void;
   t: (key: string, vars?: Vars) => string;
   availableLanguages: typeof availableLanguages;
+};
+
+type I18nProviderProps = {
+  children: React.ReactNode;
+  initialLanguage?: Language;
 };
 
 const I18nContext = createContext<I18nContextValue | undefined>(undefined);
@@ -49,8 +62,10 @@ function interpolate(template: string, vars?: Vars) {
   );
 }
 
-export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const [language, setLanguage] = useState<Language>(resolveFromNavigator());
+export function I18nProvider({ children, initialLanguage }: I18nProviderProps) {
+  const [language, setLanguage] = useState<Language>(
+    initialLanguage ?? resolveFromNavigator(),
+  );
 
   const translate = useCallback(
     (key: string, vars?: Vars) => {
@@ -75,6 +90,10 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
     }),
     [language, translate],
   );
+
+  useEffect(() => {
+    persistLanguage(language);
+  }, [language]);
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
 }

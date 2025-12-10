@@ -15,6 +15,7 @@ import {
   type ColorTokens,
   type ThemeScheme,
 } from './tokens';
+import { persistThemePreference } from '../storage/settingsStorage';
 
 export type ThemePreference = 'system' | ThemeScheme;
 
@@ -38,8 +39,15 @@ function normalizeScheme(
   return fallback;
 }
 
-export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [preference, setPreference] = useState<ThemePreference>('system');
+type ThemeProviderProps = {
+  children: React.ReactNode;
+  initialPreference?: ThemePreference;
+};
+
+export function ThemeProvider({ children, initialPreference }: ThemeProviderProps) {
+  const [preference, setPreference] = useState<ThemePreference>(
+    initialPreference ?? 'system',
+  );
   const [systemScheme, setSystemScheme] = useState<ThemeScheme>(() =>
     normalizeScheme(Appearance.getColorScheme(), 'dark'),
   );
@@ -68,6 +76,10 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     }),
     [colors, resolvedScheme, preference],
   );
+
+  useEffect(() => {
+    persistThemePreference(preference);
+  }, [preference]);
 
   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
 }
